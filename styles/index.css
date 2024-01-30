@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    /* margin: 0; */
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    font-style: oblique;
+    font-weight: 900;
+    display: flexbox;
+    margin: 10px;
+    border: 5px;
+    border-radius: 10%;
+    box-sizing: border-box;
+}
+
+main p {
+    color: burlywood;
+    width: 500px;
+    height: 200px;
+    margin: 5px;
+    border: 1px solid grey;
+    padding: 10px;
+    background: local;
+    background-color: black;
+    border-radius: 5px;
+
+
+}
+
+input[type="text"] {
+    height: 30px;
+    width: 100%;
+    max-width: 500px;
+    padding: 8px;
+    border: 1px solid green;
+    border-radius: 5px;
+    outline: none;
+}
