@@ -6,26 +6,25 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    /* margin: 20px; */
 }
 
 header {
-    /* margin-top: 0; */
+    /* margin: 0 0 1px; */
     background-color: burlywood;
     display: flex;
-    /* flex-direction: column; */
     width: 100%;
     height: 100px;
     justify-content: space-between;
     align-items: center;
     padding: 8px 15px;
-    margin: 0 0 29px;
 }
 
 /* p:first-child { */
 .store-name {
     font-size: 30px;
-    font-weight: bolder;
-    color: azure;
+    font-weight: 900;
+    color: #fff;
 }
 
 ul {
@@ -37,35 +36,40 @@ ul {
     max-width: 300px;
 }
 
+li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 li a:hover {
-    font-size: 10px;
-    transition: 0.6;
+    font-size: 16px;
+    transition: 0, 5 ease-in-out;
 }
 
 li a:active {
-    color: black;
+    color: grey;
 }
 
 .content {
     display: flex;
     align-items: center;
-    color: white;
+    color: aliceblue;
 }
 
 
-*/ div p {
+div p {
     color: white;
     font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 900;
-    font-style: normal;
+    font-weight: 400;
 }
 
 div img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    margin: 1px 10px;
+    margin: 0px 10px;
 }
 
 div button {
@@ -73,8 +77,8 @@ div button {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    background-color: transparent;
-    border: nones;
+    background: transparent;
+    border: none;
 }
 
 div svg {
